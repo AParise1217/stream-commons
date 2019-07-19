@@ -14,6 +14,7 @@
         <module>stream-commons-collections</module>
         <module>stream-commons-optional</module>
         <module>stream-commons-charsequence</module>
+        <module>stream-commons-dom4j</module>
     </modules>
 
     <scm>

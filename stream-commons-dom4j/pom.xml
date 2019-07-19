@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>stream-commons-charsequence</artifactId>
+    <artifactId>stream-commons-dom4j</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Stream Commons :: Optional</name>
-    <description>Common Java 8 Stream Utils for Optionals</description>
+    <name>Stream Commons :: Dom4J</name>
+    <description>Common Java 8 Stream Utils for the Dom4J Library</description>
     <packaging>jar</packaging>
 
     <parent>
@@ -15,8 +15,16 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <properties/>
+    <properties>
+        <dom4j.version>2.1.1</dom4j.version>
+    </properties>
 
-    <dependencies/>
+    <dependencies>
+        <dependency>
+            <groupId>org.dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>${dom4j.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
